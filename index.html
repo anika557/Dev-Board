@@ -32,7 +32,7 @@
                 <div class="flex ">
                     <div class="flex mr-5 h-10 w-20 items-center justify-center rounded-2xl gap-2 px-2 bg-[#F4F7FF]">
                         <img class="w-7 h-7" src="assets/checkbox.png" alt="">
-                        <h2 class="text-3xl font-bold">23</h2>
+                        <h2 id="inreaseNumber" class="text-3xl font-bold">23</h2>
                     </div>
                     <div id="theme" class="bg-[#F4F7FF] rounded-full h-10 w-10 "><img class="p-2"  src="assets/theme-btn.png"
                             alt=""></div>
@@ -63,7 +63,7 @@
                             <img class="h-6 w-6" src="assets/checkbox.png" alt="">
                             <div id="body-color">
                                 <p class="text-1xl">Task Assigned</p>
-                                <h1 class="font-bold text-2xl">06</h1>
+                                <h1 id="decreaseNumber" class="font-bold text-2xl">06</h1>
                             </div>
                         </div>
                         <div class="h-20 bg-slate-300 rounded-xl shadow-sm col-span-2">
@@ -92,151 +92,84 @@
 
 
                     <!-- this is lower section start -->
-                    <div class="grid grid-cols-3 gap-3 px-3 mt-5 ">
+                    <div class="grid grid-cols-3 gap-3 px-3 mt-5">
+                        <!-- Card 1 -->
                         <div class="h-70 bg-slate-300 rounded-xl shadow-sm p-6">
-                            <button class=" btn hover: shadow-none  ">ShopEase</button>
                             <h1 class="text-xl font-bold">Fix Mobile Button Issue</h1>
-                            <p class="bg-white rounded-lg h-12 pl-2  ">Debug using Chrome DevTools, check for
-                                overl...</p>
-
-                            <div class="">
+                            <p class="bg-white rounded-lg h-12 pl-2">Debug using Chrome DevTools, check for overl...</p>
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="deadline">21 March 2025</h1>
                                 <div>
-                                    <p>Deadline</p>
-                                    <h1>21 March 2025</h1>
-                                    <div>
-                                        <button
-                                            class="text-white bg-blue-600  font-bold rounded-lg px-5 py-2">completed</button>
-                                    </div>
+                                    <button id="button1" class="text-white bg-blue-600 font-bold rounded-lg px-5 py-2">completed</button>
                                 </div>
-
-
                             </div>
                         </div>
 
-
-
+                        <!-- Card 2 -->
                         <div class="h-70 bg-slate-300 rounded-xl shadow-sm p-6">
-                            <button class=" btn hover: shadow-none  ">ShopEase</button>
-                            <h1 class="text-xl font-bold">Fix Mobile Button Issue</h1>
-                            <p class="bg-white rounded-lg h-12 pl-2  ">Debug using Chrome DevTools, check for
-                                overl...</p>
-
-                            <div class="">
+                            <h1 class="text-xl font-bold">Add Dark Mode</h1>
+                            <p class="bg-white rounded-lg h-12 pl-2">Debug using Chrome DevTools, check for overl...</p>
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="deadline">21 March 2025</h1>
                                 <div>
-                                    <p>Deadline</p>
-                                    <h1>21 March 2025</h1>
-                                    <div>
-                                        <button
-                                            class="text-white bg-blue-600  font-bold rounded-lg px-5 py-2">completed</button>
-                                    </div>
+                                    <button id="button2" class="text-white bg-blue-600 font-bold rounded-lg px-5 py-2">completed</button>
                                 </div>
-
-
                             </div>
                         </div>
 
-
-
-
-
-
-
-
+                        <!-- Card 3 -->
                         <div class="h-70 bg-slate-300 rounded-xl shadow-sm p-6">
-                            <button class=" btn hover: shadow-none  ">ShopEase</button>
-                            <h1 class="text-xl font-bold">Fix Mobile Button Issue</h1>
-                            <p class="bg-white rounded-lg h-12 pl-2  ">Debug using Chrome DevTools, check for
-                                overl...</p>
-
-                            <div class="">
+                            <h1 class="text-xl font-bold">Optimize Home Page</h1>
+                            <p class="bg-white rounded-lg h-12 pl-2">Debug using Chrome DevTools, check for overl...</p>
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="deadline">21 March 2025</h1>
                                 <div>
-                                    <p>Deadline</p>
-                                    <h1>21 March 2025</h1>
-                                    <div>
-                                        <button
-                                            class="text-white bg-blue-600  font-bold rounded-lg px-5 py-2">completed</button>
-                                    </div>
+                                    <button id="button3" class="text-white bg-blue-600 font-bold rounded-lg px-5 py-2">completed</button>
                                 </div>
-
-
                             </div>
                         </div>
 
-
-
-
-
-
+                        <!-- Card 4 -->
                         <div class="h-70 bg-slate-300 rounded-xl shadow-sm p-6">
-                            <button class=" btn hover: shadow-none  ">ShopEase</button>
-                            <h1 class="text-xl font-bold">Fix Mobile Button Issue</h1>
-                            <p class="bg-white rounded-lg h-12 pl-2  ">Debug using Chrome DevTools, check for
-                                overl...</p>
-
-                            <div class="">
+                            <h1 class="text-xl font-bold">Add New Emoji 🤲</h1>
+                            <p class="bg-white rounded-lg h-12 pl-2">Debug using Chrome DevTools, check for overl...</p>
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="deadline">21 March 2025</h1>
                                 <div>
-                                    <p>Deadline</p>
-                                    <h1>21 March 2025</h1>
-                                    <div>
-                                        <button
-                                            class="text-white bg-blue-600  font-bold rounded-lg px-5 py-2">completed</button>
-                                    </div>
+                                    <button id="button4" class="text-white bg-blue-600 font-bold rounded-lg px-5 py-2">completed</button>
                                 </div>
-
-
                             </div>
                         </div>
 
-
-
-
-
-
+                        <!-- Card 5 -->
                         <div class="h-70 bg-slate-300 rounded-xl shadow-sm p-6">
-                            <button class=" btn hover: shadow-none  ">ShopEase</button>
-                            <h1 class="text-xl font-bold">Fix Mobile Button Issue</h1>
-                            <p class="bg-white rounded-lg h-12 pl-2  ">Debug using Chrome DevTools, check for
-                                overl...</p>
-
-                            <div class="">
+                            <h1 class="text-xl font-bold">Integrate OpenAI API</h1>
+                            <p class="bg-white rounded-lg h-12 pl-2">Debug using Chrome DevTools, check for overl...</p>
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="deadline">21 March 2025</h1>
                                 <div>
-                                    <p>Deadline</p>
-                                    <h1>21 March 2025</h1>
-                                    <div>
-                                        <button
-                                            class="text-white bg-blue-600  font-bold rounded-lg px-5 py-2">completed</button>
-                                    </div>
+                                    <button id="button5" class="text-white bg-blue-600 font-bold rounded-lg px-5 py-2">completed</button>
                                 </div>
-
-
                             </div>
                         </div>
 
-
-
-
+                        <!-- Card 6 -->
                         <div class="h-70 bg-slate-300 rounded-xl shadow-sm p-6">
-                            <button class=" btn hover: shadow-none  ">ShopEase</button>
-                            <h1 class="text-xl font-bold">Fix Mobile Button Issue</h1>
-                            <p class="bg-white rounded-lg h-12 pl-2  ">Debug using Chrome DevTools, check for
-                                overl...</p>
-
-                            <div class="">
+                            <h1 class="text-xl font-bold">Improve Job Searching</h1>
+                            <p class="bg-white rounded-lg h-12 pl-2">Debug using Chrome DevTools, check for overl...</p>
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="deadline">21 March 2025</h1>
                                 <div>
-                                    <p>Deadline</p>
-                                    <h1>21 March 2025</h1>
-                                    <div>
-                                        <button
-                                            class="text-white bg-blue-600  font-bold rounded-lg px-5 py-2">completed</button>
-                                    </div>
+                                    <button id="button6" class="text-white bg-blue-600 font-bold rounded-lg px-5 py-2">completed</button>
                                 </div>
-
-
                             </div>
                         </div>
-
-
-
                     </div>
                     <!-- this is lower section end -->
                 </div>
@@ -248,6 +181,16 @@
 
                 <!-- this is right section start -->
                 <div class="h-180  bg-white rounded-xl shadow-sm">
+                    <section>
+                        <div >
+                            <p id="histry" class="text-xl mx-auto mt-4 justify-center items-center flex" >Activity Log</p><br>
+                            <button class="text-xl mx-auto bg-blue-600 px-5 py-2 btn text-white font-bold	justify-center items-center flex">Clear Histry</button>
+                        </div>
+                        <hr class="border-dashed border-t-2 border-gray-200 my-2">
+                        <div id="container" class="p-4">
+                            <!-- Activity log will be dynamically added here -->
+                        </div>
+                    </section>
 
 
 

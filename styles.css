@@ -1,0 +1,65 @@
+.h-70 {
+    height: 280px; /* Consistent height for all cards */
+}
+
+.bg-slate-300 {
+    background-color: #e2e8f0; /* Light slate background */
+}
+
+.rounded-xl {
+    border-radius: 12px; /* Rounded corners */
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.p-6 {
+    padding: 24px; /* Inner padding */
+}
+
+.text-xl {
+    font-size: 1.25rem; /* Font size for titles */
+}
+
+.font-bold {
+    font-weight: bold; /* Bold text */
+}
+
+.bg-white {
+    background-color: #ffffff; /* White background for text areas */
+}
+
+.h-12 {
+    height: 48px; /* Consistent height for text areas */
+}
+
+.pl-2 {
+    padding-left: 8px; /* Padding for text areas */
+}
+
+.text-white {
+    color: #ffffff; /* White text for buttons */
+}
+
+.bg-blue-600 {
+    background-color: #2563eb; /* Blue background for buttons */
+}
+
+.bg-blue-600:hover {
+    background-color: #1d4ed8; /* Darker blue on hover */
+}
+
+.rounded-lg {
+    border-radius: 8px; /* Rounded corners for buttons */
+}
+
+.px-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.py-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
